@@ -1,1 +1,108 @@
 # addmissionform.github.io
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission Form of Backbencher University</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Student Registration Form </h1>
+        </center>
+        <hr>
+    </header>
+    <main>
+        <div>
+            <!-- TAKING NAME OF STUDENT AS INPUT  -->
+            <label for="fname">FIRST NAME -:</label>
+            <input type="text" name="" id="fname" placeholder="Your First Name " required max="14"> <br>
+            <label for="mname">MIDDLE NAME -:</label>
+            <input type="text" name="" id="fname" placeholder="Your Middle Name " maxlength="7"> <br>
+            <label for="lname">LAST NAME -:</label>
+            <input type="text" name="" id="fname" placeholder="Your Last Name " required maxlength="14"> <br> </div>
+        <div>
+            <!-- TAKING DEPARTMENT & BRANCH AS INPUT  -->
+            <label for="dpmnt">DEPARTMENT</label>
+            <select name="" id="dpmnt"><option value="select">DIPLOMA</option>
+            <option value="">B.TECH</option>
+            <option value="">MBA</option>
+            <option value="">PHARMACY</option>
+            <option value="">M.TECH</option> </select> <br>
+
+            <label for="branch">BRANCH</label>
+            <select name="" id="branch"><option value="select">ECE</option>
+            <option value="">ME</option>
+            <option value="">CSE</option>
+            <option value="">CE</option>
+            <option value="">BioTech</option>
+        
+        </select>
+        </div>
+        <div>
+            <!-- GENDER SECTION  -->
+            <label for="gender">Gender :</label><br>
+            <input type="radio" id="gender" name="" value="">MALE <br>
+            <input type="radio" value="" id="gender" name="">FEMALE <br>
+            <input type="radio" value="" id="gender" name="">PREFER NOT TO SAY <br>
+        </div>
+        <br>
+        <div>
+            <!-- MOBILE NUMBER SECTION  -->
+            <label for="Phone">PHONE</label>
+            <input type="text" name="" value="+91" size="2">
+            <input type="tel" name="Phone" id="Phone" size="20" pattern="[0-9] {4}-[0-9]{6}" placeholder="Your MOBILE NUMBER ">
+
+        </div>
+        <br>
+        <div>
+            <!-- ADDRESS SECTION  -->
+            <label for="caddress">PRESENT ADDRESS</label>
+            <textarea name="" id="caddress" cols="30" rows="10" placeholder="YOUR PRESENT ADDRESS" required></textarea>
+
+        </div>
+        <br>
+        <div>
+            <!-- TAKING RESUME AS INPUT  -->
+            <label for="resume">RESUME</label>
+            <input type="file" id="resume" name="" value="">
+        </div>
+        <br>
+        <div>
+            <!-- EMAIL SECTION  -->
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="" value="" placeholder="YOUR MAIL ID" required>
+        </div>
+        <br>
+        <div>
+            <!-- PASSWORD SECTION  -->
+            <label for="psw">PASSWORD</label>
+            <input type="psw" name="" id="psw" placeholder="YOUR PASSWORD"> <br>
+            <label for="psw">RE-ENTER YOUR PASSWORD</label>
+            <input type="psw" name="" id="psw" placeholder="YOUR PASSWORD">
+
+        </div>
+        <br>
+        <div>
+            <!-- DECLARATION AND SUBMIT SECTION  -->
+            <label for="dcr">DECLARATION:</label><br>
+            <input type="checkbox" id="dcr" name="dcr" required> “I hereby declare that the above particulars of facts and information stated are true, correct and complete to the best of my belief and knowledge.” <br><br>
+            <input type="button" value="SUBMIT" id="submit">
+
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <!-- THANKYOU AND COPYRIGHT SECTION  -->
+
+        <center> <label for="tq"><h3>THANK YOU !! </h3></label></center>
+        <center> <label for="CR"><i> COPYRIGHT @ VIKAS TRIPATHI</i></label></center>
+
+    </footer>
+</body>
+
+</html>
